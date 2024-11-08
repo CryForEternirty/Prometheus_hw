@@ -188,4 +188,5 @@ https://grafana.com/
 nano /etc/prometheus/prometheus.yml
 static_configs:
       - targets: ["localhost:9090", "localhost:9100"]
+      
 Важно, чтобы был установлен тот же самый экспортер. (Другой не подойдет) Когда будет добавлено больше хостов, в списке их можно будет выбирать.
